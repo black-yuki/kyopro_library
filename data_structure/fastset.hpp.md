@@ -2,10 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: data_structure/fastset.test.cpp
+    title: data_structure/fastset.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "#line 2 \"data_structure/fastset.hpp\"\n#include <bit>\n#include <cstddef>\n\
@@ -57,8 +60,9 @@ data:
   path: data_structure/fastset.hpp
   requiredBy: []
   timestamp: '2024-10-09 14:20:44-04:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - data_structure/fastset.test.cpp
 documentation_of: data_structure/fastset.hpp
 layout: document
 redirect_from:
