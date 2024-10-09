@@ -1,5 +1,5 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/predecessor_problem"
-#include "FastSet.hpp"
+#include "fastset.hpp"
 #include <bits/stdc++.h>
 using namespace std;
 
